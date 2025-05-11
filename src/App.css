@@ -1,0 +1,169 @@
+/* General Styles */
+html,
+body {
+    height: 100%; /* Set height to 100% */
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: #f4f4f4;
+}
+
+#root {  /* Ensure root element also fills the screen if needed */
+    height: 100%;
+}
+
+.container {
+    width: 100%;
+    height: 100%; /* Set height to 100% */
+    max-width: none; /* Remove max-width */
+    margin: 0; /* Remove margin */
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 0; /* Remove border-radius */
+    box-shadow: none; /* Remove box-shadow */
+    display: flex;          /* Use flexbox to control the layout */
+    flex-direction: column; /* Stack header and content vertically */
+}
+
+/* Login Page Styles */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Make it full height */
+    width: 100%;   /* Ensure full width */
+    background-color: #f0f0f0;
+}
+
+.login-image {
+    margin-right: 50px;
+    text-align: center;
+}
+
+.login-form {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+}
+
+.login-form h1 {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.login-form p {
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.login-form a {
+    color: #007bff;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.login-button {
+    background-color: #28a745; /* Green color */
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.login-button:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+.login-button.google-login {
+    background-color: #4285f4; /* Google blue */
+}
+
+.login-button.google-login:hover {
+    background-color: #357ae8;
+}
+
+/* Budget Planner Styles */
+.header {
+    background-color: #28a745;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 0; /* Remove rounded corners */
+}
+
+.content {
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+    flex: 1;            /* Allow the content to fill the remaining height */
+}
+
+.budget-overview {
+    flex: 2;
+}
+
+.summary {
+    flex: 1;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.input-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.input-row label {
+    margin-right: 10px;
+    width: 80px;
+}
+
+.input-row input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.add-row-button {
+    background-color: #28a745;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.net-total {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Add more styles for other elements as needed */
